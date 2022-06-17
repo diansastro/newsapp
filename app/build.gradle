@@ -42,7 +42,7 @@ android {
         prod {
             dimension "app"
             buildConfigField("String", "BASE_URL", "\"${baseUrl}\"")
-            buildConfigField ("String", "TMDB_API_KEY", "\"${NEWS_API_KEY}\"")
+            buildConfigField ("String", "NEWS_API_KEY", "\"${NEWS_API_KEY}\"")
         }
     }
 }
